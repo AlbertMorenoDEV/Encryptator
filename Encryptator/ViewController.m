@@ -127,7 +127,7 @@
 - (NSString *)sha1Encrypt:(NSString *)stringToEncrypt
 {
     NSString *returnString;
-    returnString = @"TEST";
+    returnString = [Encrypt sha1:stringToEncrypt];
     return returnString;
 }
 
@@ -141,14 +141,14 @@
 - (NSString *)base64Encrypt:(NSString *)stringToEncrypt
 {
     NSString *returnString;
-    returnString = @"TEST";
+    returnString = [Encrypt base64:stringToEncrypt];
     return returnString;
 }
 
 - (NSString *)crc32Encrypt:(NSString *)stringToEncrypt
 {
     NSString *returnString;
-    returnString = @"TEST";
+    returnString = [Encrypt crc32:stringToEncrypt];
     return returnString;
 }
 
