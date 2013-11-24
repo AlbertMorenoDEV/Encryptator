@@ -17,5 +17,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *stringToEncryptTextField;
 
 - (IBAction)encryptPushButton:(id)sender;
+- (IBAction)versionPushButton:(id)sender;
 
 @end

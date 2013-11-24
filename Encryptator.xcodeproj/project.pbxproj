@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB3E05EC18422CBE00752FA4 /* ChangeLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3E05EB18422CBE00752FA4 /* ChangeLogViewController.m */; };
 		BB5C86B718391FAF00BD7E83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5C86B618391FAF00BD7E83 /* Foundation.framework */; };
 		BB5C86B918391FAF00BD7E83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5C86B818391FAF00BD7E83 /* CoreGraphics.framework */; };
 		BB5C86BB18391FAF00BD7E83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5C86BA18391FAF00BD7E83 /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB3E05EA18422CBE00752FA4 /* ChangeLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeLogViewController.h; sourceTree = "<group>"; };
+		BB3E05EB18422CBE00752FA4 /* ChangeLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeLogViewController.m; sourceTree = "<group>"; };
 		BB5C86B318391FAF00BD7E83 /* Encryptator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Encryptator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB5C86B618391FAF00BD7E83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BB5C86B818391FAF00BD7E83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -84,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB3E05ED18422CC200752FA4 /* ChangeLogViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB3E05EA18422CBE00752FA4 /* ChangeLogViewController.h */,
+				BB3E05EB18422CBE00752FA4 /* ChangeLogViewController.m */,
+			);
+			name = ChangeLogViewController;
+			sourceTree = "<group>";
+		};
 		BB5C86AA18391FAF00BD7E83 = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +138,7 @@
 				BB5C86D118391FAF00BD7E83 /* Images.xcassets */,
 				BB5C86BD18391FAF00BD7E83 /* Supporting Files */,
 				BB5C86F5183949C000BD7E83 /* Encrypt */,
+				BB3E05ED18422CC200752FA4 /* ChangeLogViewController */,
 			);
 			path = Encryptator;
 			sourceTree = "<group>";
@@ -269,6 +282,7 @@
 				BB5C86F4183949BB00BD7E83 /* Encrypt.m in Sources */,
 				BB5C86D018391FAF00BD7E83 /* ViewController.m in Sources */,
 				BB5C86C718391FAF00BD7E83 /* AppDelegate.m in Sources */,
+				BB3E05EC18422CBE00752FA4 /* ChangeLogViewController.m in Sources */,
 				BB5C86C318391FAF00BD7E83 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +502,7 @@
 				BB5C86EA18391FAF00BD7E83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB5C86EB18391FAF00BD7E83 /* Build configuration list for PBXNativeTarget "EncryptatorTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +511,7 @@
 				BB5C86ED18391FAF00BD7E83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
